@@ -1,8 +1,8 @@
 ---
-title: "Categories"
+title: "categorías"
 draft: false
 type: taxonomies
 layout: "home"
 ---
 
-Our Categories Collection
+correspondientes a los principales temas a tratar en el blog

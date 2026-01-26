@@ -3,11 +3,14 @@
     <a href="{{ .Permalink }}">{{ .Title }}</a>
   </h1>
   
+  {{/* Solo muestra la fecha si es un post individual y la fecha no es "cero" */}}
+  {{ if and (eq .Kind "page") (not .PublishDate.IsZero) }}
   <span class="date">
     <time datetime="{{ .PublishDate }}" title='{{ .PublishDate.Format "Mon, Jan 2, 2006, 3:04 PM MST" }}'>
       {{ .PublishDate.Format "02/01/2006" }}
     </time>
   </span>
+  {{ end }}
 
   <div class="description">
     {{ if .Params.description }}
