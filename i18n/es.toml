@@ -1,0 +1,27 @@
+[latestPosts]
+    other = 'Publicaciones recientes'
+    
+[readMore]
+    other = 'Leer más'
+
+[summary]
+    other = 'Resumen'
+
+[estimatedReadingTime]
+    other = 'Tiempo estimado de lectura: %d minutos'
+
+[404_title]
+    other = 'Página no encontrada'
+
+[404_text]
+    other = "Parece que has seguido un enlace roto o has introducido una URL que no existe en este sitio."
+
+# Claves del menú (si el tema las usa)
+[home]
+    other = 'Inicio'
+
+[about]
+    other = 'Sobre mí'
+
+[categories]
+    other = 'Categorías'

@@ -1,4 +1,4 @@
 ---
-title: "lecturas"
+title: "Lecturas"
 draft: false
 ---

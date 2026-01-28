@@ -1,0 +1,20 @@
+<nav>
+  <ul>
+    {{/* Usamos relURL para asegurar que las rutas sean relativas a la raíz */}}
+    <li>
+      <a href="{{ "/" | relURL }}" class="{{ if eq .RelPermalink "/" }} active {{ end }}">Inicio</a>
+    </li>
+    
+    <li>
+      <a href="{{ "/blog/" | relURL }}" class="{{ if (strings.HasPrefix .RelPermalink "/posts") }} active {{ end }}">Publicaciones</a>
+    </li>
+    
+    <li>
+      <a href="{{ "/categories/" | relURL }}" class="{{ if (strings.HasPrefix .RelPermalink "/categories") }} active {{ end }}">Categorías</a>
+    </li>
+    
+    <li>
+      <a href="{{ "/tags/" | relURL }}" class="{{ if (strings.HasPrefix .RelPermalink "/tags") }} active {{ end }}">Etiquetas</a>
+    </li>
+  </ul>
+</nav>

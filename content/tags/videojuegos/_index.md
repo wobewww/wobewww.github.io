@@ -1,4 +1,4 @@
 ---
-title: "videojuegos"
+title: "Videojuegos"
 draft: false
 ---

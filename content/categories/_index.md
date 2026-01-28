@@ -1,8 +1,8 @@
 ---
-title: "categorías"
+title: "Categorías"
 draft: false
 type: taxonomies
 layout: "home"
 ---
 
-correspondientes a los principales temas a tratar en el blog
+tipos de publicaciones en el blog
