@@ -1,0 +1,8 @@
+<figure class="flex flex-col items-center justify-center my-8">
+  <img src="{{ .Get "src" }}" alt="{{ .Get "alt" }}" class="rounded-lg shadow-md">
+  {{ with .Get "caption" }}
+    <figcaption class="text-center text-sm text-gray-500 mt-2 italic">
+      {{ . }}
+    </figcaption>
+  {{ end }}
+</figure>
